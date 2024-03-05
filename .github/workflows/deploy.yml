@@ -20,7 +20,7 @@ jobs:
           pip install pylint
       - name: Lint
         run: |
-          pylint src --fail-under=0
+          pylint app.py --fail-under=0
       - name: Test Python code
         run: python app.py
         
