@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 
-st.title('👋 **Hello!**')
+st.title('👋 **Hello**')
 st.write('On essaie de prédire ici le type de fleur en se basant sur ses caractéristiques')
 with open('model.pkl', 'rb') as file:
     loaded = pickle.load(file)
